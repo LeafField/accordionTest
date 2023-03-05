@@ -20,11 +20,9 @@ const closeAnimation = (content: HTMLElement): Keyframe[] => [
 const openAnimation = (content: HTMLElement): Keyframe[] => [
   {
     height: 0,
-    opacity: 0,
   },
   {
     height: content.offsetHeight + "px",
-    opacity: 1,
   },
 ];
 

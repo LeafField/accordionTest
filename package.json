@@ -1,6 +1,6 @@
 {
   "name": "accordion-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jQueryを使わないアコーディオンの新型テンプレート",
   "main": "index.ts",
   "scripts": {
