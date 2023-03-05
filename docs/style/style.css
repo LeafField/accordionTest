@@ -1,0 +1,3 @@
+body{background-color:gray}details{width:300px;margin-inline:auto;margin-top:300px;background-color:#fff;overflow:hidden}summary{display:block;background-color:#7fffd4}summary::-webkit-details-marker{display:none}.summary-inner{display:flex;align-items:center;justify-content:space-between;cursor:pointer;margin-left:8px}.summary-icon{display:block;border-right:2px solid #000;border-bottom:2px solid #000;width:8px;height:8px;-webkit-transform:rotate(45deg);transform:rotate(45deg);margin-right:8px;transition:all .4s}.is-opened .summary-icon{-webkit-transform:rotate(-135deg);transform:rotate(-135deg)}.content-inner{padding:15px}
+
+/*# sourceMappingURL=style.css.map*/

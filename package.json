@@ -1,0 +1,55 @@
+{
+  "name": "accordion-template",
+  "version": "1.0.0",
+  "description": "jQueryを使わないアコーディオンの新型テンプレート",
+  "main": "index.ts",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "dev": "webpack-dev-server",
+    "build": "webpack",
+    "lint": "eslint src/js/*.ts",
+    "update": "ncu -u",
+    "image":"node imagemin.mjs"
+  },
+  "author": "Youko Tsunoda",
+  "license": "ISC",
+  "browserslist": [
+   "> 0.2%, not dead",
+    "not IE 11",
+    "Safari > 11, iOS > 11"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.21.0",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "autoprefixer": "^10.4.13",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.35.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "npm-check-updates": "^16.7.10",
+    "postcss": "^8.4.21",
+    "postcss-loader": "^7.0.2",
+    "sass": "^1.58.3",
+    "sass-loader": "^13.2.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1",
+    "imagemin": "^8.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^10.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.29.0",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
